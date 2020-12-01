@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "myTest_Cjj (Debug)",
+			"request": "launch",
+			"preLaunchTask": "myTest_Cjj Win64 Debug Build",
+			"program": "C:\\benchu\\code\\project\\xuhuan\\myTest_Cjj\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_Engine\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_Engine\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "myTest_Cjj (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "myTest_Cjj Win64 DebugGame Build",
+			"program": "C:\\benchu\\code\\project\\xuhuan\\myTest_Cjj\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_Engine\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_Engine\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "myTest_Cjj (Development)",
+			"request": "launch",
+			"preLaunchTask": "myTest_Cjj Win64 Development Build",
+			"program": "C:\\benchu\\code\\project\\xuhuan\\myTest_Cjj\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_Engine\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_Engine\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "myTest_Cjj (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "myTest_Cjj Win64 Shipping Build",
+			"program": "C:\\benchu\\code\\project\\xuhuan\\myTest_Cjj\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_Engine\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_Engine\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "myTest_Cjj (Test)",
+			"request": "launch",
+			"preLaunchTask": "myTest_Cjj Win64 Test Build",
+			"program": "C:\\benchu\\code\\project\\xuhuan\\myTest_Cjj\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE_Engine\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_Engine\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "myTest_CjjEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "myTest_CjjEditor Win64 Debug Build",
+			"program": "D:\\UE_Engine\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\benchu\\code\\project\\xuhuan\\myTest_Cjj\\myTest_Cjj.uproject"
+			],
+			"cwd": "D:\\UE_Engine\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_Engine\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "myTest_CjjEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "myTest_CjjEditor Win64 DebugGame Build",
+			"program": "D:\\UE_Engine\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\benchu\\code\\project\\xuhuan\\myTest_Cjj\\myTest_Cjj.uproject"
+			],
+			"cwd": "D:\\UE_Engine\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_Engine\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "myTest_CjjEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "myTest_CjjEditor Win64 Development Build",
+			"program": "D:\\UE_Engine\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\benchu\\code\\project\\xuhuan\\myTest_Cjj\\myTest_Cjj.uproject"
+			],
+			"cwd": "D:\\UE_Engine\\UE_4.25",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_Engine\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\UE_Engine\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\benchu\\code\\project\\xuhuan\\myTest_Cjj\\myTest_Cjj.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\UE_Engine\\UE_4.25"
+		}
+	]
+}
